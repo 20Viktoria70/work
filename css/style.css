@@ -100,3 +100,34 @@ table.schedule th {
 table.schedule tr:nth-child(even) {
     background: #f0f0f0;
 }
+
+.news-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.news-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.news-card img {
+    width: 100%;
+    max-width: 600px; /* ✨ обмеження фото */
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.news-card h3 {
+    margin-top: 10px;
+}
+
+.news-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
